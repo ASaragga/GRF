@@ -1,5 +1,5 @@
 # GRF - Gestão de Riscos Financeiros
-![](GRF01.jepg?raw=true)
+![](GRF01.jpg?raw=true)
 
 - Medindo o Risco de Perda: VaR e ETL
 - Mercado de Ações
