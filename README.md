@@ -95,7 +95,7 @@ DataFrame(q) = 14×7 DataFrame
   13 │ IBM     2025-02-26T20:30:00  255.83   257.01   255.53   255.85   497780.0
 
 ```
-Podemos também extrair as cotações da coluna `close` do DataFrame para um vetor (o qual lhe podemos chamar por exemplo `fim30m`) e com base nelas, calcular a média e o devio-padrão.
+Podemos adicionalmente extrair as cotações da coluna `close` do DataFrame para um vetor (o qual lhe podemos chamar por exemplo `fim30m`) e com base nelas, calcular a média e o devio-padrão.
 ```
 using Statistics
 
