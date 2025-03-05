@@ -42,7 +42,7 @@ using VARe
 p = get_prices("IBM",Date(2025,02,01), Date(2025,03,03))
 println(DataFrame(p))
 ```
-Neste caso, utilizamos a função `get_prices` para extrair a partir do Yahoo Finance as cotações das ações da IBM para o período compreendidon entre 1 de Fevereiro e 3 de Março de 2025. `DataFrame` organiza os dados numa tabela e `println` imprime a informação recolhida. Aqui `adjclose` representa as cotações de fecho ajustadas por emissão de novas ações, pagamento de dividendos, stock splits e reverse splits.
+Utilizamos a função `get_prices` para extrair a partir do Yahoo Finance as cotações das ações da IBM para o período compreendidon entre 1 de Fevereiro e 3 de Março de 2025. `DataFrame` organiza os dados numa tabela e `println` imprime a informação recolhida. Aqui `adjclose` representa as cotações de fecho ajustadas por emissão de novas ações, pagamento de dividendos, stock splits e reverse splits.
 ```
 19×8 DataFrame
  Row │ ticker  timestamp            open     high     low      close    adjclose  vol       
@@ -95,7 +95,7 @@ DataFrame(q) = 14×7 DataFrame
   13 │ IBM     2025-02-26T20:30:00  255.83   257.01   255.53   255.85   497780.0
 
 ```
-Podemos agora extrair as cotações da coluna `close` do DataFrame para um vetor (o qual lhe podemos chamar por exemplo `fim30m`) e com base nelas, calcular a média e o devio-padrão.
+Podemos também extrair as cotações da coluna `close` do DataFrame para um vetor (o qual lhe podemos chamar por exemplo `fim30m`) e com base nelas, calcular a média e o devio-padrão.
 ```
 using Statistics
 
