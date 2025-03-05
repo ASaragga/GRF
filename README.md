@@ -95,13 +95,13 @@ DataFrame(q) = 14×7 DataFrame
   13 │ IBM     2025-02-26T20:30:00  255.83   257.01   255.53   255.85   497780.0
 
 ```
-Podemos agora extrair do DataFrame as cotações de fim-de-período (`fim_periodo`) de cada intervalo e com base nelas calcular a média e o devio-padrão.
+Podemos agora extrair as cotações da coluna `close` do DataFrame para um vetor (o qual lhe podemos chamar por exemplo `fim30m`) e com base nelas, calcular a média e o devio-padrão.
 ```
 using Statistics
 
-fim_periodo = q[:,6]         # Todos os elementos da 6ª coluna (close) do DataFrame
-@show mean(fim_periodo)
-@show std(fim_periodo)
+fim30m = q[:,6]         # fim30m é um vetor com todos os elementos da 6ª coluna (close) do DataFrame
+@show mean(fim30m)
+@show std(fim30m)
 ```
 Necessitamos de declarar `using Statistics` para calcular a média e o desvio-padrão. Normalmente esta declaraçoes são colocadas no iníco de cada script
 ```
