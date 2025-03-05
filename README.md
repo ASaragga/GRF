@@ -39,6 +39,7 @@ A instalação de pactores apenas necessita de ser feita uma vez.
 Antes de os pacotes instalados poderem ser utilizados numa sessão teremos recorrer ao comando: `using`, como no seguinte exemplo,
 ```
 using VARe
+
 p = get_prices("IBM",Date(2025,02,01), Date(2025,03,03))
 println(DataFrame(p))
 ```
