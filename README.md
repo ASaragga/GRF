@@ -25,7 +25,7 @@ Pacote das disciplinas GRF e ARE: Valorização, Aquisição e Reorganização d
 Instalar Pacote VARe.jl a partir do Repositório no GitHub
 ```
 using Pkg
-Pkg.add("https://github.com/ASARAGGA/VARE.jl")
+Pkg.add("https://github.com/ASARAGGA/VARe.jl")
 ```
 Instalar Pacotes do Repositório Oficial
 ```
