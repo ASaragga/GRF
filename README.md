@@ -39,7 +39,7 @@ Updating git-repo `https://github.com/ASaragga/Caramel.jl`
   [05823500] ↑ OpenLibm_jll v0.8.1+2 ⇒ v0.8.1+4
 ```
 Online no Google Colab
-![](GoogleColab.jpg?raw=true)
+![](GoogleColab.png?raw=true)
 
 Instalar Pacotes do Repositório Oficial
 ```
