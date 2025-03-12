@@ -45,7 +45,6 @@ Instalar Pacotes do Repositório Oficial
 ```
 using Pkg
 Pkg.add("Distributions")
-
 ```
 Neste caso estamos a instalar o pacote `Distributions` que dá acesso a um grande número de distribuições de probabilidade, incluindo a Normal e a T-Student.
 A instalação de pactores apenas necessita de ser feita uma vez. 
