@@ -20,9 +20,9 @@
 
 ### Gestão de Pacotes
 
-Pacote das disciplinas GRF e ARE.
+Pacote das disciplinas GRF e ARE: `Caramel.jl`
 
-Instalar Pacote Caramel.jl a partir do Repositório no GitHub
+Instalar pacote `Caramel.jl` a partir do Repositório no GitHub
 ```
 using Pkg
 Pkg.add("https://github.com/ASaragga/Caramel.jl")
@@ -33,17 +33,17 @@ using Pkg
 Pkg.add("Distributions")
 
 ```
-Neste caso estamos a instalar o pacote `Distributions` que dá acesso a um grande número de distribuições de probabilidade incluindo a Normal e a T-Student.
+Neste caso estamos a instalar o pacote `Distributions` que dá acesso a um grande número de distribuições de probabilidade, incluindo a Normal e a T-Student.
 A instalação de pactores apenas necessita de ser feita uma vez. 
 
-Antes de os pacotes instalados poderem ser utilizados numa sessão teremos recorrer ao comando: `using`, como no seguinte exemplo,
+Antes de os pacotes instalados poderem ser utilizados numa sessão, teremos recorrer ao comando: `using`, como no seguinte exemplo,
 ```
 using Caramel
 
 p = get_prices("IBM",Date(2025,02,01), Date(2025,03,03))
 println(DataFrame(p))
 ```
-Utilizamos a função `get_prices` para extrair a partir do Yahoo Finance as cotações das ações da IBM para o período compreendidon entre 1 de Fevereiro e 3 de Março de 2025. `DataFrame` organiza os dados numa tabela e `println` imprime a informação recolhida. Aqui `adjclose` representa as cotações de fecho ajustadas por emissão de novas ações, pagamento de dividendos, stock splits e reverse splits.
+Utilizamos a função `get_prices` para extrair a partir do website Yahoo Finance as cotações das ações da IBM para o período compreendidon entre 1 de Fevereiro e 3 de Março de 2025. `DataFrame` organiza os dados numa tabela e `println` imprime a informação recolhida. Aqui `adjclose` representa as cotações de fecho, ajustadas por emissão de novas ações, pagamento de dividendos, stock splits e reverse splits.
 ```
 19×8 DataFrame
  Row │ ticker  timestamp            open     high     low      close    adjclose  vol       
@@ -98,6 +98,7 @@ DataFrame(q) = 14×7 DataFrame
 ```
 Podemos adicionalmente extrair as cotações da coluna `close` do DataFrame para um vetor (o qual lhe podemos chamar por exemplo `fim30m`) e com base nelas, calcular a média e o devio-padrão.
 ```
+using Caramel
 using Statistics
 
 fim30m = q[:,6]         # fim30m é um vetor com todos os elementos da 6ª coluna (close) do DataFrame
