@@ -43,7 +43,7 @@ using Caramel
 p = get_prices("IBM",Date(2025,02,01), Date(2025,03,03))
 println(DataFrame(p))
 ```
-Utilizamos a função `get_prices` para extrair a partir do website Yahoo Finance as cotações das ações da IBM para o período compreendidon entre 1 de Fevereiro e 3 de Março de 2025. `DataFrame` organiza os dados numa tabela e `println` imprime a informação recolhida. Aqui `adjclose` representa as cotações de fecho, ajustadas por emissão de novas ações, pagamento de dividendos, stock splits e reverse splits.
+Utilizamos a função `get_prices` para extrair a partir do website Yahoo Finance as cotações das ações da IBM para o período compreendido entre 1 de Fevereiro e 3 de Março de 2025. `DataFrame` organiza os dados numa tabela e `println` imprime a informação recolhida. Aqui `adjclose` representa as cotações de fecho, ajustadas por emissão de novas ações, pagamento de dividendos, stock splits e reverse splits.
 ```
 19×8 DataFrame
  Row │ ticker  timestamp            open     high     low      close    adjclose  vol       
@@ -69,7 +69,7 @@ Utilizamos a função `get_prices` para extrair a partir do website Yahoo Financ
   18 │ IBM     2025-02-27T14:30:00  255.22   257.63   253.05    253.23   253.23   3.4022e6
   19 │ IBM     2025-02-28T14:30:00  250.86   252.81   246.54    252.44   252.44   7.9888e6
 ```
-Podemos também obter informação intra-diária, adicionado o argumento da função relativo ao intervalo desejado entre cotações, para trinta minutos: "30m". Por omissão, a função `get_prices` considera o período de 1 dia: "1d", não sendo pois necessário neste caso incluir o argumento relativo ao intervalo entre cotações.
+Podemos também obter informação intra-diária, adicionado o argumento da função relativo ao intervalo desejado entre cotações. Para trinta minutos teremos: "30m". Por omissão, a função `get_prices` considera o período de 1 dia: "1d", não sendo pois necessário neste caso incluir o argumento relativo ao intervalo entre cotações.
 ```
 q = get_prices("IBM",DateTime(2025,02,26,0,0,0), DateTime(2025,02,26,23,59,59), interval = "30m")
 q = DataFrame(q)
@@ -96,7 +96,7 @@ DataFrame(q) = 14×7 DataFrame
   13 │ IBM     2025-02-26T20:30:00  255.83   257.01   255.53   255.85   497780.0
 
 ```
-Podemos adicionalmente extrair as cotações da coluna `close` do DataFrame para um vetor (o qual lhe podemos chamar por exemplo `fim30m`) e com base nelas, calcular a média e o devio-padrão.
+Podemos adicionalmente extrair as cotações da coluna `close` do DataFrame para um vetor (o qual iremos chamar por exemplo `fim30m`) e com base nelas, calcular a média e o devio-padrão.
 ```
 using Caramel
 using Statistics
