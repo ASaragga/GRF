@@ -22,10 +22,21 @@
 
 Pacote das disciplinas GRF e ARE: `Caramel.jl`
 
-Instalar pacote `Caramel.jl` a partir do Repositório no GitHub
+Na aplicação Julia, instalamos o pacote `Caramel.jl` a partir do Repositório no GitHub,
 ```
 using Pkg
-Pkg.add("https://github.com/ASaragga/Caramel.jl")
+Pkg.add(url="https://github.com/ASaragga/Caramel.jl")
+```
+com o resultado,
+```
+Updating git-repo `https://github.com/ASaragga/Caramel.jl`
+   Resolving package versions...
+      Compat entries added for Caramel
+    Updating `~/Caramelo/Project.toml`
+  [4015ef85] + Caramel v0.0.1-DEV `https://github.com/ASaragga/Caramel.jl#main`
+    Updating `~/Caramelo/Manifest.toml`
+  [4015ef85] + Caramel v0.0.1-DEV `https://github.com/ASaragga/Caramel.jl#main`
+  [05823500] ↑ OpenLibm_jll v0.8.1+2 ⇒ v0.8.1+4
 ```
 Instalar Pacotes do Repositório Oficial
 ```
