@@ -20,12 +20,12 @@
 
 ### Gestão de Pacotes
 
-Pacote das disciplinas GRF e ARE: Valorização, Aquisição e Reorganização de Empresas (VARe). VARe também referencia a medida de risco de perda: VaR
+Pacote das disciplinas GRF e ARE.
 
-Instalar Pacote VARe.jl a partir do Repositório no GitHub
+Instalar Pacote Caramel.jl a partir do Repositório no GitHub
 ```
 using Pkg
-Pkg.add("https://github.com/ASARAGGA/VARe.jl")
+Pkg.add("https://github.com/ASaragga/Caramel.jl")
 ```
 Instalar Pacotes do Repositório Oficial
 ```
@@ -38,7 +38,7 @@ A instalação de pactores apenas necessita de ser feita uma vez.
 
 Antes de os pacotes instalados poderem ser utilizados numa sessão teremos recorrer ao comando: `using`, como no seguinte exemplo,
 ```
-using VARe
+using Caramel
 
 p = get_prices("IBM",Date(2025,02,01), Date(2025,03,03))
 println(DataFrame(p))
