@@ -34,7 +34,10 @@ Esta instalação apenas necessita de ser feita uma vez.
 ### 1.2.2 - Instalação Online da Biblioteca `Caramel.jl` no Google Colab
 Primeiro, no início de cada sessão, teremos sempre que alterar o runtime do Google Colab de Python para Julia. Pois, por omissão, o runtime do Google Colab  é definido inicialmente como sendo Python.
 
-<img src="ColabRuntime.png?raw=true" alt="Colab Runtime" width="500">
+<div style="text-align:center">
+  <img src="ColabRuntime.png?raw=true" alt="Colab Runtime" width="500">
+</div>
+#<img src="ColabRuntime.png?raw=true" alt="Colab Runtime" width="500">
 #![](ColabRuntime.png?raw=true)
 
 Uma vez definido o runtime como Julia, para fazer a instalação do `Caramel`no Google Colab,
