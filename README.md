@@ -44,7 +44,7 @@ Pkg.add("Distributions")
 Neste caso estamos a instalar o pacote `Distributions` que dá acesso a um grande número de distribuições de probabilidade, incluindo a Normal e a T-Student.
 A instalação de pactores apenas necessita de ser feita uma vez. 
 
-### 1.2.4 - Usando as Bibliotecas: Comando `using
+### 1.2.4 - Usando as Bibliotecas: Comando `using´
 Antes de os pacotes instalados, incluindo o `Caramel.jl`, poderem ser utilizados numa sessão, teremos recorrer ao comando: `using`, como no seguinte exemplo,
 ```
 using Caramel
