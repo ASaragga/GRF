@@ -45,7 +45,7 @@ Neste caso estamos a instalar o pacote `Distributions` que dá acesso a um grand
 A instalação de pactores apenas necessita de ser feita uma vez. 
 
 ### 1.2.4 - Usando as Bibliotecas: Comando `using`
-Antes de os pacotes instalados, incluindo o `Caramel.jl`, poderem ser utilizados numa sessão, teremos recorrer ao comando: `using`, como no seguinte exemplo,
+Antes de os pacotes instalados, incluindo o `Caramel.jl`, poderem ser utilizados numa sessão, teremos de recorrer ao comando: `using`, como no seguinte exemplo,
 ```
 using Caramel
 
