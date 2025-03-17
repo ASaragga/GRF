@@ -6,8 +6,9 @@
       - [Google Colab](https://colab.research.google.com/github/ASaragga/GRF/blob/main/VaR.ipynb) (dinâmico)
       - [GitHub](https://github.com/ASaragga/GRF/blob/main/VaR.ipynb) (estático)
    - Notebook 02: ETL
-   - Notebook 02: Simulação Histórica e Simulação de Monte-Carlo
-   - Notebook 03: Risco de Perda em Carteiras de Grande Dimensão
+   - Notebook 03: Agregação Temporal
+   - Notebook 04: Simulação Histórica e Simulação de Monte-Carlo
+   - Notebook 05: Risco de Perda em Carteiras de Grande Dimensão
 - Mercado de Ações
 - Mercado Cambial
 - Risco de Taxa de Juro
