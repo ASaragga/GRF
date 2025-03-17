@@ -2,9 +2,12 @@
 ![](GRF01.jpg?raw=true)
 
 - Medindo o Risco de Perda
-   - Notebook 01: [VaR e ETL](https://github.com/ASaragga/GRF/blob/main/VaR_ETL.ipynb)
-   - Notebook 02: [Abordagens Paraméticas, Simulação Histórica e Simulação de Monte-Carlo]()
-   - Notebook 03: [Risco de Perda em Carteiras de Grande Dimensão]()
+   - Notebook 01: VaR
+      - [Google Colab](https://colab.research.google.com/github/ASaragga/GRF/blob/main/VaR.ipynb)
+      - [GitHub](https://github.com/ASaragga/GRF/blob/main/VaR.ipynb)
+   - Notebook 02: ETL
+   - Notebook 02: Abordagens Paraméticas, Simulação Histórica e Simulação de Monte-Carlo
+   - Notebook 03: Risco de Perda em Carteiras de Grande Dimensão
 - Mercado de Ações
 - Mercado Cambial
 - Risco de Taxa de Juro
