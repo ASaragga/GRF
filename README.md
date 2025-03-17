@@ -1,7 +1,10 @@
 # GRF - Gestão de Riscos Financeiros
 ![](GRF01.jpg?raw=true)
 
-- Medindo o Risco de Perda: VaR e ETL
+- Medindo o Risco de Perda
+   - Notebook 01: [VaR e ETL](https://github.com/ASaragga/GRF/blob/main/VaR_ETL.ipynb)
+   - Notebook 02: [Abordagens Paraméticas, Simulação Histórica e Simulação Monte-Carlo]()
+   - Notebook 03: [Risco de Perda em Grandes Carteiras]()
 - Mercado de Ações
 - Mercado Cambial
 - Risco de Taxa de Juro
@@ -60,7 +63,7 @@ Utilizamos a função `AssetPrice` para extrair a partir do website Yahoo Financ
 
 ***
 
-Notebook 01: [Análise de Risco de Perda: VaR e ETL](https://github.com/ASaragga/GRF/blob/main/VaR_ETL.ipynb)
+
 
 
 
