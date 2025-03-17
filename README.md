@@ -37,7 +37,7 @@ Pkg.add(url="https://github.com/ASaragga/Caramel.jl")
 ```
 Esta instalação apenas necessita de ser feita uma vez.
 
-### 1.2.2 - Instalação Online da Biblioteca `Caramel.jl` no Google Colab
+### 1.2.2 - Instalação Online da Biblioteca Caramel.jl no Google Colab
 Primeiro, no início de cada sessão, teremos sempre que alterar o runtime do Google Colab de Python para Julia. Pois, por omissão, o runtime do Google Colab  é definido inicialmente como sendo Python.
 
 <p align="center">
@@ -62,7 +62,7 @@ using Caramel
 p = AssetPrice("IBM",Date(2025,02,01), Date(2025,03,03))
 println(DataFrame(p))
 ```
-Utilizamos a função AssetPrice para extrair a partir do website Yahoo Finance as cotações das ações da IBM para o período compreendido entre 1 de Fevereiro e 3 de Março de 2025. DataFrame organiza os dados numa tabela e `println` imprime a informação recolhida. A coluna :adjclose apresenta o histórico das cotações de fecho das sessões diárias da New York Stock Exchange, ajustadas por emissão de novas ações, pagamento de dividendos, stock splits e reverse splits ocorridos ao longo do tempo.
+Utilizamos a função AssetPrice para extrair a partir do website Yahoo Finance as cotações das ações da IBM para o período compreendido entre 1 de Fevereiro e 3 de Março de 2025. DataFrame organiza os dados numa tabela e println imprime a informação recolhida. A coluna :adjclose apresenta o histórico das cotações de fecho das sessões diárias da New York Stock Exchange, ajustadas por emissão de novas ações, pagamento de dividendos, stock splits e reverse splits ocorridos ao longo do tempo.
 
 
 
