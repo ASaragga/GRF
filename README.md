@@ -66,7 +66,7 @@ Utilizamos a função `AssetPrice` para extrair a partir do website Yahoo Financ
 
 ***
 
-Notebook: [🔗Análise de Risco de Perda: VaR e ETL](https://github.com/ASaragga/GRF/edit/main/README.md)
+Notebook: [🔗Análise de Risco de Perda: VaR e ETL](https://github.com/ASaragga/GRF/blob/main/VaR_ETL.ipynb)
 
 
 
