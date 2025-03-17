@@ -46,7 +46,7 @@ Uma vez definido o runtime como Julia, para fazer a instalação do `Caramel`no 
 
 Esta instalação tem de ser sempre feita no início de cada sessão, pois o Google Colab não persiste as bibliotecas instaladas entre sessões.
 
-### 1.2.3 - Instalação de Bibliotecas do Repositório Oficial
+A instalação de bibliotecas do repositório oficial processa-se de uma forma um pouco mais simples,
 ```
 using Pkg
 Pkg.add("Distributions")
@@ -54,7 +54,7 @@ Pkg.add("Distributions")
 Neste caso estamos a instalar o pacote `Distributions` que dá acesso a um grande número de distribuições de probabilidade, incluindo a Normal e a T-Student.
 A instalação de pactores apenas necessita de ser feita uma vez. 
 
-### 1.2.4 - Usando as Bibliotecas: Comando `using`
+### 1.2.4 - Usando Bibliotecas: O Comando `using`
 Antes de os pacotes instalados, incluindo o `Caramel.jl`, poderem ser utilizados numa sessão, teremos de recorrer ao comando: `using`, como no seguinte exemplo,
 ```
 using Caramel
