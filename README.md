@@ -38,24 +38,18 @@ Primeiro, no início de cada sessão, teremos sempre que alterar o runtime do Go
   <img src="ColabRuntime.png?raw=true" alt="Colab Runtime" width="700">
 </p>
 
-Uma vez definido o runtime como Julia, para fazer a instalação do `Caramel`no Google Colab,
+Uma vez definido o runtime como Julia, para fazer a instalação do Caramel no Google Colab,
 
 <p align="center">
   <img src="GoogleColab.png?raw=true" alt="Instalação Caramel" width="700">
 </p>
 
-Esta instalação tem de ser sempre feita no início de cada sessão, pois o Google Colab não persiste as bibliotecas instaladas entre sessões.
-
-A instalação de bibliotecas do repositório oficial processa-se de uma forma um pouco mais simples,
+Esta instalação tem de ser sempre feita no início de cada sessão, pois o Google Colab não persiste as bibliotecas instaladas entre sessões. A instalação de bibliotecas do repositório oficial processa-se de uma forma um pouco mais simples,
 ```
 using Pkg
-Pkg.add("Distributions")
+Pkg.add("Turing")
 ```
-Neste caso estamos a instalar o pacote `Distributions` que dá acesso a um grande número de distribuições de probabilidade, incluindo a Normal e a T-Student.
-A instalação de pactores apenas necessita de ser feita uma vez. 
-
-### 1.2.4 - Usando Bibliotecas: O Comando `using`
-Antes de os pacotes instalados, incluindo o `Caramel.jl`, poderem ser utilizados numa sessão, teremos de recorrer ao comando: `using`, como no seguinte exemplo,
+Antes de os pacotes instalados poderem ser utilizados numa sessão, teremos de recorrer ao comando: `using`, como no seguinte exemplo,
 ```
 using Caramel
 
