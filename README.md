@@ -1,12 +1,12 @@
 # GRF - Gestão de Riscos Financeiros
 ![](GRF01.jpg?raw=true)
-
+***
 - Medindo o Risco de Perda
    - Notebook 01: VaR
       - [Google Colab](https://colab.research.google.com/github/ASaragga/GRF/blob/main/VaR.ipynb) (dinâmico)
       - [GitHub](https://github.com/ASaragga/GRF/blob/main/VaR.ipynb) (estático)
    - Notebook 02: ETL
-   - Notebook 02: Abordagens Paraméticas, Simulação Histórica e Simulação de Monte-Carlo
+   - Notebook 02: Simulação Histórica e Simulação de Monte-Carlo
    - Notebook 03: Risco de Perda em Carteiras de Grande Dimensão
 - Mercado de Ações
 - Mercado Cambial
@@ -63,7 +63,7 @@ p = AssetPrice("IBM",Date(2025,02,01), Date(2025,03,03))
 println(DataFrame(p))
 ```
 Utilizamos a função AssetPrice para extrair a partir do website Yahoo Finance as cotações das ações da IBM para o período compreendido entre 1 de Fevereiro e 3 de Março de 2025. DataFrame organiza os dados numa tabela e println imprime a informação recolhida. A coluna :adjclose apresenta o histórico das cotações de fecho das sessões diárias da New York Stock Exchange, ajustadas por emissão de novas ações, pagamento de dividendos, stock splits e reverse splits ocorridos ao longo do tempo.
-
+***
 
 
 
