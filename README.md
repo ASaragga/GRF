@@ -9,7 +9,10 @@
        - [Google Colab](https://colab.research.google.com/github/ASaragga/GRF/blob/main/ETL.ipynb) (dinâmico)
        - [GitHub](https://github.com/ASaragga/GRF/blob/main/ETL.ipynb) (estático)
    - Notebook 03: Agregação Temporal
-   - Notebook 04: Simulação Histórica e Simulação de Monte-Carlo
+   - Notebook 04: Simulação Histórica e
+   - Notebook 05: Simulação de Monte-Carlo
+      - [Google Colab](https://colab.research.google.com/github/ASaragga/GRF/blob/main/SimMonteCarlo01.ipynb) (dinâmico)
+      - [GitHub](https://github.com/ASaragga/GRF/blob/main/SimMonteCarlo01.ipynb) (estático)
    - Notebook 05: Risco de Perda em Carteiras de Grande Dimensão
 - Mercado de Ações
 - Mercado Cambial
